@@ -7,6 +7,5 @@ class Perinola:
     def __repr__(self):
         return f"Salio: {self.cara_visible}"
     def tirar(self):
-        caras = [1, 2, 3, 4, 5, 6]
-        self.cara_visible = choice(caras)
+        self.cara_visible = choice(self.caras)
         return self.cara_visible
